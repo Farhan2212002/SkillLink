@@ -1,0 +1,78 @@
+/* Global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #4cafef;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Layout */
+main {
+  padding: 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+section {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input, textarea, select, button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  background: #4cafef;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background: #3b9dd4;
+}
+
+/* Cards */
+.skill-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.skill-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Action buttons on cards */
+.action-buttons {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-buttons button {
+  flex: 1;
+  padding: 0.4rem;
+}
